@@ -1,0 +1,5 @@
+PT-BR (79 caracteres — limite 80):
+Sequenciador de bateria com 14 instrumentos, MIDI, WAV e seus próprios samples.
+
+EN (73 caracteres — limite 80):
+Drum sequencer with 14 instruments, MIDI/WAV export and your own samples.
