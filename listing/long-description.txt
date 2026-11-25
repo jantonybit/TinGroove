@@ -20,7 +20,7 @@ MIDI E EXPORTAÇÃO
 • EXPORT WAV: mix offline estéreo 44,1 kHz/16 bits e, opcionalmente, 14 stems — um por instrumento. A exportação usa um sequenciador temporário e não altera a reprodução ao vivo.
 
 PRIVACIDADE
-App pago, pagamento único, sem assinatura e sem compras internas. Não cria conta, não exibe anúncios, não coleta dados e não envia telemetria. Não há captura de microfone nem gravação do áudio do sistema: a saída é somente WASAPI render-only. Suas configurações, padrões e exportações ficam em %LOCALAPPDATA%\TinGroove\config neste PC. O app lê apenas o arquivo WAV que você escolhe explicitamente. Política de privacidade: [URL A CONFIRMAR — ver Store/PRIVACY.md].
+App pago, pagamento único, sem assinatura e sem compras internas. Não cria conta, não exibe anúncios, não coleta dados e não envia telemetria. Não há captura de microfone nem gravação do áudio do sistema: a saída é somente WASAPI render-only. Suas configurações, padrões e exportações ficam em %LOCALAPPDATA%\TinGroove\config neste PC. O app lê apenas o arquivo WAV que você escolhe explicitamente. Política de privacidade: https://jantonybit.github.io/TinGroove/privacy-policy.html
 
 REQUISITOS
 Windows com WASAPI (saída de áudio compartilhada) e WinMM para MIDI. Interface em português e inglês.
@@ -47,7 +47,7 @@ MIDI AND EXPORT
 • EXPORT WAV: offline stereo mix at 44.1 kHz/16-bit and, optionally, 14 stems — one per instrument. Export uses a temporary sequencer and never disturbs live playback.
 
 PRIVACY
-Paid app, one-time purchase, no subscription and no in-app purchases. No account, no ads, no data collection and no telemetry. No microphone capture and no recording of system audio: output is WASAPI render-only. Your settings, patterns and exports stay in %LOCALAPPDATA%\TinGroove\config on this PC. The app only reads the WAV file you explicitly choose. Privacy policy: [URL TO CONFIRM — see Store/PRIVACY.md].
+Paid app, one-time purchase, no subscription and no in-app purchases. No account, no ads, no data collection and no telemetry. No microphone capture and no recording of system audio: output is WASAPI render-only. Your settings, patterns and exports stay in %LOCALAPPDATA%\TinGroove\config on this PC. The app only reads the WAV file you explicitly choose. Privacy policy: https://jantonybit.github.io/TinGroove/privacy-policy.en.html
 
 REQUIREMENTS
 Windows with WASAPI (shared-mode audio output) and WinMM for MIDI. Interface in English and Portuguese.
