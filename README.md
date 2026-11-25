@@ -10,7 +10,7 @@ publicado na Microsoft Store por Jantonybit.
 
 ## GitHub Pages
 
-Com `main` / raiz como fonte em *Settings → Pages*, os endereços públicos são:
+Com `main` / raiz como fonte em *Settings → Pages* (já ativo), os endereços públicos são:
 
 - `https://jantonybit.github.io/TinGroove/`
 - `https://jantonybit.github.io/TinGroove/privacy-policy.html`
@@ -18,4 +18,5 @@ Com `main` / raiz como fonte em *Settings → Pages*, os endereços públicos s�
 
 ## Suporte
 
-Registre uma Issue neste repositório para dúvidas, bugs ou solicitações de privacidade.
+Registre uma Issue em `https://github.com/jantonybit/TinGroove/issues` para dúvidas, bugs ou
+solicitações de privacidade.
