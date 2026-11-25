@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TinGroove — Política de Privacidade</title>
+<style>
+  :root { --bg:#12151c; --panel:#1b1f28; --line:#343a49; --gold:#d4af37;
+          --text:#e8eaf0; --muted:#a8aebb; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text);
+         font:16px/1.7 "Segoe UI", Tahoma, sans-serif; }
+  .wrap { max-width:860px; margin:0 auto; padding:32px 22px 64px; }
+  header { border-bottom:2px solid var(--gold); padding-bottom:18px; margin-bottom:26px; }
+  h1 { color:var(--gold); margin:0 0 4px; font-size:34px; }
+  .sub { color:var(--muted); font-size:14px; letter-spacing:1px; }
+  h2 { color:var(--gold); font-size:21px; margin:32px 0 10px; }
+  p, li { color:var(--text); }
+  a { color:#e6c96a; }
+  code, pre { background:#0d1016; color:#e6c96a; border-radius:4px;
+              font-family:Consolas, monospace; }
+  code { padding:1px 5px; }
+  pre { padding:14px; overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; margin:12px 0; font-size:15px; }
+  th { background:#242a36; color:#e6c96a; text-align:left; }
+  th, td { border:1px solid var(--line); padding:9px 11px; vertical-align:top; }
+  .summary { background:var(--panel); border-left:4px solid var(--gold);
+             padding:14px 18px; border-radius:0 8px 8px 0; }
+  .note { background:#202a25; border-left:4px solid #57a97a;
+          padding:12px 16px; border-radius:0 8px 8px 0; }
+  footer { color:var(--muted); font-size:13px; border-top:1px solid var(--line);
+           margin-top:40px; padding-top:16px; }
+  .lang { float:right; font-size:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <span class="lang"><a href="privacy-policy.en.html">English</a></span>
+  <h1>TinGroove</h1>
+  <div class="sub">SOUND DESIGNER BY JANTONYBIT · POLÍTICA DE PRIVACIDADE</div>
+</header>
+
+<p class="summary"><strong>Resumo:</strong> o TinGroove roda inteiramente no seu computador.
+Não cria conta, não coleta dados, não envia telemetria, não exibe anúncios e não grava nem
+transmite áudio. Os sons incluídos são gerados pelo próprio aplicativo.</p>
+
+<p><strong>Versão:</strong> 1.0 · <strong>Data:</strong> [A PREENCHER NA PUBLICAÇÃO]<br>
+<strong>Publicador:</strong> Jantonybit · <strong>Store ID:</strong> <code>9N8BSV9BGP95</code>
+(confirmar no Partner Center)</p>
+
+<h2>1. Responsável</h2>
+<p>O aplicativo é publicado por <strong>Jantonybit</strong>. Esta política explica o que acontece
+com seus arquivos e informações quando você usa o TinGroove. Os dados de compra são tratados
+pela Microsoft Store, não pelo aplicativo.</p>
+
+<h2>2. Dados coletados</h2>
+<p><strong>Nenhum.</strong> Não há cadastro, login, analytics, relatórios de falhas,
+identificadores de publicidade, cookies, SDKs de terceiros nem envio de arquivos, texto ou
+áudio para servidores. O aplicativo não contém compras dentro do app: o pagamento é único e
+processado pela Store.</p>
+
+<h2>3. Áudio e dispositivos</h2>
+<table>
+  <tr><th>Acesso</th><th>Para que serve</th><th>Para onde vai</th></tr>
+  <tr><td>Saída WASAPI (render-only, modo compartilhado)</td><td>Tocar o padrão montado por você</td><td>Somente para o dispositivo de saída escolhido</td></tr>
+  <tr><td>Entrada MIDI (<code>winmm</code>)</td><td>Receber notas, CC e MIDI Clock de controlador ou DAW</td><td>Comandos locais; nada é enviado pela rede</td></tr>
+</table>
+<p>O TinGroove <strong>não</strong> acessa microfone, não faz loopback de reprodução, não captura
+o áudio de outros aplicativos e não grava o som do sistema. Não há driver próprio nem
+instalação de driver.</p>
+
+<h2>4. Arquivos no seu computador</h2>
+<p>O TinGroove <strong>nunca grava dentro da pasta do executável</strong> (que é somente leitura
+no pacote da Store). Tudo o que é salvo fica em:</p>
+<pre>%LOCALAPPDATA%\TinGroove\config\</pre>
+<table>
+  <tr><th>Arquivo</th><th>Conteúdo</th></tr>
+  <tr><td><code>ui.cfg</code></td><td>Idioma, dispositivo de saída, preferências de MIDI, motor de som e opção de stems</td></tr>
+  <tr><td><code>rhythm.cfg</code></td><td>Seu padrão, barras, compasso, loop, durações, mix e mute/solo</td></tr>
+  <tr><td><code>samples.cfg</code></td><td>Instrumento, camada de velocity e caminho de cada WAV importado</td></tr>
+  <tr><td><code>ritmo.mid</code></td><td>Última exportação MIDI</td></tr>
+  <tr><td><code>ritmo.wav</code> e <code>stems\*.wav</code></td><td>Última exportação de áudio</td></tr>
+</table>
+<p>Para apagar seus dados, feche o aplicativo e remova essa pasta manualmente.</p>
+<p>O aplicativo lê <strong>apenas o arquivo WAV que você escolhe explicitamente</strong> no
+gerenciador de samples. O arquivo é lido no local original: não é copiado, modificado,
+renomeado ou enviado. Se você apagá-lo ou movê-lo, aquele slot volta ao som gerado pelo app.</p>
+<p class="note">Use apenas sons que você tenha o direito de usar. Não redistribua samples de
+terceiros nem timbres de teclado gravados. O TinGroove não inclui nem hospeda esse tipo de
+arquivo.</p>
+
+<h2>5. Internet</h2>
+<p>O TinGroove não faz requisições de rede por conta própria. A única ação relacionada à
+internet é abrir, mediante <strong>clique explícito</strong> no botão <em>More Apps From The
+Developer.</em>, a página do publicador na Microsoft Store (com fallback para
+<code>apps.microsoft.com</code>). Suas configurações e exportações nunca são enviadas.</p>
+
+<h2>6. Compartilhamento com terceiros</h2>
+<p>Não compartilhamos dados com terceiros. Não há redes de anúncios, analytics, nuvem nem
+processadores de pagamento dentro do app. A Microsoft pode tratar informações relacionadas à
+sua conta Microsoft e à compra conforme a política da Microsoft Store.</p>
+
+<h2>7. Crianças</h2>
+<p>O aplicativo não é direcionado a menores de 13 anos e não coleta informações de crianças.</p>
+
+<h2>8. Alterações</h2>
+<p>Se esta política mudar, a nova versão será publicada no mesmo endereço com a data
+atualizada.</p>
+
+<h2>9. Contato</h2>
+<p>Dúvidas ou solicitações relacionadas à privacidade devem ser registradas como <code>Issue</code>
+no repositório do TinGroove no GitHub:
+<a href="https://github.com/Jantonybit/TinGroove/issues">github.com/Jantonybit/TinGroove/issues</a>
+(endereço a confirmar após a criação do repositório).</p>
+
+<footer>TinGroove · Sound Designer by Jantonybit · Política de Privacidade v1.0</footer>
+</div>
+</body>
+</html>
