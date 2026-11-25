@@ -25,8 +25,8 @@ Partner Center ou de decisão sua; o resto foi extraído do código e do `README
 | Faixa etária | Todos os públicos (Everyone) |
 | Idiomas declarados | Português (Brasil), Inglês (Estados Unidos) |
 | Palavras‑chave | `bateria`, `sequenciador`, `ritmo`, `midi`, `wav`, `samples`, `latim`, `drum machine` |
-| URL da política de privacidade | **CONFIRMAR/CRIAR** — `https://jantonybit.github.io/TinGroove/privacy-policy.html` |
-| URL de suporte | **CONFIRMAR/CRIAR** — `https://github.com/Jantonybit/TinGroove/issues` |
+| URL da política de privacidade | `https://jantonybit.github.io/TinGroove/privacy-policy.html` |
+| URL de suporte | `https://github.com/jantonybit/TinGroove/issues` |
 | Novidades desta versão | `listing/release-notes.md` |
 | Capturas de tela | A preparar: grid, configurações, gerenciador de samples, exportação |
 | Assets | A preparar: StoreLogo 50×50, Square44x44, Square150x150, Wide310x150 |
@@ -42,8 +42,8 @@ Partner Center ou de decisão sua; o resto foi extraído do código e do `README
 | Price | US$ 4,99 launch / US$ 9,99 list — one-time, no subscription |
 | Age rating | Everyone |
 | Keywords | `drum machine`, `sequencer`, `groove`, `midi`, `wav`, `samples`, `latin`, `beat` |
-| Privacy policy URL | **CONFIRMAR/CRIAR** — `https://jantonybit.github.io/TinGroove/privacy-policy.en.html` |
-| Support URL | **CONFIRMAR/CRIAR** — `https://github.com/Jantonybit/TinGroove/issues` |
+| Privacy policy URL | `https://jantonybit.github.io/TinGroove/privacy-policy.en.html` |
+| Support URL | `https://github.com/jantonybit/TinGroove/issues` |
 
 ## Declaração de capacidades
 
