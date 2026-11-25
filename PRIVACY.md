@@ -1,6 +1,6 @@
 # Política de Privacidade — TinGroove
 
-**Versão:** 1.0 · **Data:** [A PREENCHER NA PUBLICAÇÃO]  
+**Versão:** 1.0 · **Data:** 24 de novembro de 2026  
 **Publicador:** Jantonybit · **Store ID:** `9N8BSV9BGP95` (confirmar no Partner Center)
 
 ---
@@ -83,8 +83,8 @@ Se esta política mudar, a nova versão será publicada no mesmo endereço com a
 ## 9. Contato
 
 Dúvidas ou solicitações relacionadas à privacidade devem ser registradas como `Issue` no
-repositório do TinGroove no GitHub: **[CONFIRMAR URL — ex.:
-https://github.com/Jantonybit/TinGroove/issues]**.
+repositório do TinGroove no GitHub:
+**https://github.com/jantonybit/TinGroove/issues**.
 
 ---
 
